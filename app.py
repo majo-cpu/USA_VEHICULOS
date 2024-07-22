@@ -6,7 +6,7 @@ st.header('Histograma y Dispersion en funcion de el kilometraje de un vehiculo')
 
 # 
 
-car_data = pd.read_csv('C:/Users/nicol/OneDrive/Documentos/VehiculosUSA/USA_VEHICULOS/vehicles_us.csv',sep=',')  # leer los datos
+car_data = pd.read_csv(r'C:\Users\nicol\OneDrive\Documentos\VehiculosUSA\USA_VEHICULOS\vehicles_us.csv')  # leer los datos
 build_histogram = st.checkbox('Construir un histograma')
 build_scatter = st.checkbox('Construir dispersión')
 
